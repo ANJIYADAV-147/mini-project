@@ -1,0 +1,42 @@
+.cart-items-list {
+  width: 70%;
+  list-style-position: none;
+  padding-left: 0;
+}
+.cartListView-container {
+  margin-bottom: 30px;
+}
+.totalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.placeOrderButton {
+  width: Hug (99px) px;
+  height: Hug (32px) px;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #f7931e;
+  color: #ffffff;
+  border-radius: 10px;
+  border: 0px;
+}
+.totalAmountContainer {
+  display: flex;
+  flex-direction: row;
+}
+.totalRupee {
+  margin-top: 25px;
+}
+.place-order-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.totalAmount {
+  color: #3e4c59;
+  font-size: 20px;
+}

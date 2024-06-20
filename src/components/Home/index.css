@@ -1,0 +1,141 @@
+.HomeImg {
+  height: 270px;
+  width: 80%;
+  align-items: center;
+}
+
+.heading-sort-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+.popular-sort-container {
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-right: 10%;
+}
+.popular-heading {
+  font-family: 'DM Sans';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin: 0px;
+  margin-top: 10px;
+}
+.select {
+  border: 0px;
+  font-weight: bold;
+}
+.popular-des {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 0px;
+}
+.line {
+  border: 1px solid #cbd2d9;
+  width: 90%;
+  height: 0px;
+  top: 200px;
+  left: 160px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.carousel-box {
+  margin-top: 10px;
+}
+
+.carouselImg {
+  height: 300px;
+  margin: 20px;
+  padding-left: 70px;
+  padding-right: 80px;
+}
+@media screen and (max-width: 768px) {
+  .carouselImg {
+    height: 250px;
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .carousel-box {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heading-sort-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .popular-heading {
+    font-size: 20px;
+  }
+  .popular-des {
+    font-size: 12px;
+  }
+  .line {
+    display: none;
+  }
+  .popular-sort-container {
+    margin: 0px;
+  }
+}
+.restaurantsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.filter-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 190px;
+  margin-top: 15px;
+  cursor: pointer;
+  margin-right: 50px;
+}
+.pagination-box {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.filter-icon {
+  color: #475569;
+  font-size: 28px;
+  margin: 0;
+}
+
+.filter-text {
+  margin: 0;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #475569;
+}
+
+.filter-popup {
+  height: 100px;
+  width: 150px;
+}
+.filter-container {
+  display: flex;
+  flex-direction: row;
+}
+.selectedElement {
+  height: 50px;
+  width: 100px;
+  margin: 10px;
+}
